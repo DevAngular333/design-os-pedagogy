@@ -1,0 +1,15 @@
+{
+  "name": "design-os-pedagogy",
+  "metadata": {
+    "description": "Evidence-graded pedagogy library, cognitive-load curriculum tree runtime, and interactive mastery assessment engine for AI tutoring agents."
+  },
+  "owner": {
+    "name": "Jang Trinh"
+  },
+  "plugins": [
+    {
+      "name": "design-os-pedagogy",
+      "source": "./"
+    }
+  ]
+}

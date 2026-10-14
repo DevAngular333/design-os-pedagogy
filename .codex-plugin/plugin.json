@@ -1,0 +1,41 @@
+{
+  "name": "design-os-pedagogy",
+  "description": "Evidence-graded pedagogy library, cognitive-load curriculum tree runtime, and interactive mastery assessment engine for AI tutoring agents.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jang Trinh",
+    "url": "https://github.com/jangtrinh"
+  },
+  "homepage": "https://jangtrinh.github.io/design-os-pedagogy/",
+  "repository": "https://github.com/jangtrinh/design-os-pedagogy",
+  "license": "MIT",
+  "keywords": [
+    "pedagogy",
+    "ai-tutor",
+    "curriculum-design",
+    "cognitive-load",
+    "spaced-repetition",
+    "design-os"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DESIGN:OS Agent Teacher",
+    "shortDescription": "Evidence-graded pedagogy library, cognitive-load curriculum tree runtime, and interactive mastery assessment engine for AI tutoring agents.",
+    "longDescription": "Equip AI agents to teach complex technical subjects using Bloom's revised taxonomy, worked-example fading, spaced retrieval, Socratic diagnostic probes, and verifiable learner state machines.",
+    "developerName": "DESIGN:OS",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://jangtrinh.github.io/design-os-pedagogy/",
+    "privacyPolicyURL": "https://github.com/jangtrinh/design-os-pedagogy/blob/main/PRIVACY.md",
+    "defaultPrompt": [
+      "Design a 5-stage mastery curriculum tree for distributed consensus (Raft) with prerequisite DAGs and diagnostic transfer questions.",
+      "Turn this codebase walkthrough into a worked-example fading sequence with interactive check-for-understanding probes.",
+      "Audit our onboarding tutorial for cognitive load violations, missing prerequisite links, and passive wall-of-text explanations."
+    ],
+    "brandColor": "#202020",
+    "logo": "./docs/images/cover.png"
+  }
+}
