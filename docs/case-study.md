@@ -54,4 +54,4 @@ expert review, pilot người dùng hoặc chứng nhận năng lực giảng d�
 
 - Upstream: [`jangtrinh/design-os-pedagogy`](https://github.com/jangtrinh/design-os-pedagogy)
 - Fork: [`DevAngular333/design-os-pedagogy`](https://github.com/DevAngular333/design-os-pedagogy)
-- License: MIT; xem [`NOTICE.md`](../NOTICE.md) và [`LICENSE`](../LICENSE)
+- License: PolyForm Shield 1.0.0; xem [`NOTICE.md`](../NOTICE.md) và [`LICENSE`](../LICENSE)
