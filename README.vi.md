@@ -8,6 +8,23 @@ DESIGN:OS Pedagogy gồm kho tri thức sư phạm, ứng dụng luyện dạy c
 
 [Thư mục chạy cục bộ](docs/local-workspace.md) ghi cách xác nhận đúng checkout, khởi động ứng dụng và tìm bằng chứng kiểm thử.
 
+## Bản fork DevAngular333 và demo kiểm chứng
+
+Đây là fork công khai của [`jangtrinh/design-os-pedagogy`](https://github.com/jangtrinh/design-os-pedagogy).
+Tôi giữ nguyên runtime luyện dạy local-first và thêm một smoke runner bằng
+Python standard library để chạy **server HTTP thật**, đi qua một phiên phân số,
+đối chiếu replay và đọc bản xuất Markdown:
+
+```sh
+python3 scripts/smoke_flow.py
+```
+
+Kết quả `PASS` chỉ chứng minh luồng kỹ thuật của phiên authored rehearsal. Nội
+dung học sinh, coaching và transfer là dữ liệu mô phỏng biên soạn; chưa có
+semantic grading, expert review, pilot người dùng hay chứng nhận năng lực.
+Đọc [case study](docs/case-study.md), [NOTICE](NOTICE.md) và
+[PolyForm Shield License](LICENSE) trước khi phân phối bản fork.
+
 ## Phần đã triển khai
 
 Vòng luyện dạy có ba tình huống phân số tiếng Việt: so sánh độ lớn, kiểm tra lý do phía sau đáp án đúng, và ký hiệu khác với lời giải thích. Người tham gia chọn hành động dạy, ghi lời mình sẽ nói, đọc phản hồi gắn với transcript, làm bài chuyển giao và lưu phản tư.

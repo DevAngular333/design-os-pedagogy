@@ -8,6 +8,25 @@ Equip AI agents to teach complex technical subjects using Bloom's revised taxono
   <img src="docs/images/cover.png" alt="DESIGN:OS Agent Teacher — 2:1 Axonometric Technical Architecture" width="840">
 </p>
 
+## DevAngular333 fork and verified path
+
+This public fork keeps the local-first authored rehearsal from
+[`jangtrinh/design-os-pedagogy`](https://github.com/jangtrinh/design-os-pedagogy)
+and adds [`scripts/smoke_flow.py`](scripts/smoke_flow.py). The standard-library
+runner starts the real loopback HTTP server, completes one fraction rehearsal,
+checks event replay, and reads a Markdown export without writing runtime data to
+the repository.
+
+```bash
+python3 scripts/smoke_flow.py
+```
+
+`PASS` is evidence for the technical session path only. The learner replies,
+coaching, and transfer feedback remain authored simulation data; this is not
+semantic grading, expert review, a user study, or teaching certification. See
+[`docs/case-study.md`](docs/case-study.md), [`NOTICE.md`](NOTICE.md), and the
+upstream [PolyForm Shield License](LICENSE) before redistributing the fork.
+
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm_Shield_1.0.0-202020?style=flat-square&labelColor=202020&color=444444" alt="PolyForm Shield 1.0.0 License"></a>
   <img src="https://img.shields.io/badge/Claude_Code_%C2%B7_Codex_%C2%B7_Gemini_%C2%B7_Antigravity-skill-202020?style=flat-square&labelColor=202020&color=444444" alt="Compatible agents">
